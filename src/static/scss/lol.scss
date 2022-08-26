@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;&display=swap');
+.lol-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.w-80 {
+    width: 70%; 
+}
+
+.max-w-xl {
+    max-width: 36rem;
+}
+
+.text-2xl{
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+}
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+.text-blue-700{
+    color: rgb(29, 78, 216);
+}
+
+.text-slate-400 {
+    color: rgb(14, 163, 184);
+}
+
+.text-slate-700 {
+    color: rgb(51, 65, 85);
+}
+
+.text-sm {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+.drop-shadow-xl {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.block {
+    display: block;
+    box-sizing: border-box;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+@media screen and (min-width: 768px) { 
+    .flex{
+        display: flex;
+    }
+}
+
+.lol-box{
+    & a {
+        position: absolute;
+        bottom: -75px;
+        right: 0;
+
+        color: black;
+        width: auto;
+        text-decoration: none;
+        background-color: white;
+        padding: 20px 25px;
+        border: 0;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
